@@ -7,7 +7,7 @@ const linkProduct =
   argv.url ||
   "https://www.cdiscount.com/jeux-pc-video-console/ps5/console-ps5-sony-ps5/f-10350-son3665540797413.html";
 
-const toAddress = argv.email || "mehdi.slamnia@gmail.com";
+const toAddress = argv.email || "produit.dispo.scrap@gmail.com";
 const fromAdress = "produit.dispo.scrap@gmail.com";
 const transporter = nodemailer.createTransport({
   service: "gmail",
